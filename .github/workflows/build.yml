@@ -13,6 +13,7 @@ jobs:
         with:
           distribution: "temurin"
           java-version: "8"
+          cache: "gradle"
       - name: BUILD
         working-directory: core/boot
         run: |
