@@ -16,4 +16,5 @@ jobs:
       - name: BUILD
         working-directory: core/boot
         run: |
+          chmod +x ../../gradlew && \
           ../../gradlew clean build
