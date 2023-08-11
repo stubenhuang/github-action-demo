@@ -13,6 +13,6 @@ jobs:
           distribution: "temurin"
           java-version: "8"
       - name: build
-        working-directory: core/boot
+        working-directory: core/boot/
         run: |
           ..\..\gradlew clean build
